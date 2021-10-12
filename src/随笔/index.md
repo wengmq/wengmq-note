@@ -1,7 +1,7 @@
 ---
 nav:
-  title: Components
-  path: /components
+  title: 个人随记
+  path: /个人随记
 ---
 
 ## Foo
