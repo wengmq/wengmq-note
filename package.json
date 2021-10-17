@@ -28,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "@tuya/dumi-theme-tuya": "^2.7.1",
     "react": "^17.0.2"
   },
   "devDependencies": {
