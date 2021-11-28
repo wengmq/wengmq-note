@@ -1,4 +1,4 @@
-# 计算文件 md5 值
+# python 计算文件 md5 值
 
 ```
 import hashlib

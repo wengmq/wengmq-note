@@ -1,12 +1,6 @@
-# [`sqlite3`](https://docs.python.org/zh-cn/3.8/library/sqlite3.html#module-sqlite3) --- SQLite 数据库 DB-API 2.0 接口模块
+# python SQLite 数据库
 
-**参考：**https://docs.python.org/zh-cn/3.8/library/sqlite3.html
-
-**源代码：** [Lib/sqlite3/](https://github.com/python/cpython/tree/3.8/Lib/sqlite3/)
-
-------
-
-SQLite 是一个C语言库，它可以提供一种轻量级的基于磁盘的数据库，这种数据库不需要独立的服务器进程，也允许需要使用一种非标准的 SQL 查询语言来访问它。一些应用程序可以使用 SQLite 作为内部数据存储。可以用它来创建一个应用程序原型，然后再迁移到更大的数据库，比如 PostgreSQL 或 Oracle。
+SQLite 是一个 C 语言库，它可以提供一种轻量级的基于磁盘的数据库，这种数据库不需要独立的服务器进程，也允许需要使用一种非标准的 SQL 查询语言来访问它。一些应用程序可以使用 SQLite 作为内部数据存储。可以用它来创建一个应用程序原型，然后再迁移到更大的数据库，比如 PostgreSQL 或 Oracle。
 
 sqlite3 模块由 Gerhard Häring 编写。它提供了符合 DB-API 2.0 规范的接口，这个规范是 [**PEP 249**](https://www.python.org/dev/peps/pep-0249)。
 
@@ -85,11 +79,11 @@ cur.executemany('INSERT INTO stocks VALUES (?,?,?,?,?)', purchases)
 ('2006-04-05', 'BUY', 'MSFT', 1000, 72.0)
 ```
 
-参见
+## ref：
 
 - [https://www.sqlite.org](https://www.sqlite.org/)
 
-  SQLite的主页；它的文档详细描述了它所支持的 SQL 方言的语法和可用的数据类型。
+  SQLite 的主页；它的文档详细描述了它所支持的 SQL 方言的语法和可用的数据类型。
 
 - https://www.w3schools.com/sql/
 
@@ -99,5 +93,6 @@ cur.executemany('INSERT INTO stocks VALUES (?,?,?,?,?)', purchases)
 
   PEP 由 Marc-André Lemburg 撰写。
 
+- **参考：**https://docs.python.org/zh-cn/3.8/library/sqlite3.html
 
-
+- **源代码：** [Lib/sqlite3/](https://github.com/python/cpython/tree/3.8/Lib/sqlite3/)

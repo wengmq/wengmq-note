@@ -1,10 +1,4 @@
-# [`timeit`](https://docs.python.org/zh-cn/3/library/timeit.html#module-timeit) --- 测量小代码片段的执行时间
-
-**参考：**https://docs.python.org/zh-cn/3/library/timeit.html
-
-**源码：** [Lib/timeit.py](https://github.com/python/cpython/tree/3.9/Lib/timeit.py)
-
----
+# python 测量小代码片段的执行时间：[`python timeit`](https://docs.python.org/zh-cn/3/library/timeit.html#module-timeit)
 
 该模块提供了一种简单的方法来计算一小段 Python 代码的耗时。它有 [命令行界面](https://docs.python.org/zh-cn/3/library/timeit.html#timeit-command-line-interface) 以及一个 [可调用](https://docs.python.org/zh-cn/3/library/timeit.html#python-interface) 方法。它避免了许多用于测量执行时间的常见陷阱。另见 Tim Peters 对 O'Reilly 出版的 _Python Cookbook_ 中“算法”章节的介绍。
 
@@ -88,7 +82,7 @@ python -m timeit [-n N] [-r N] [-u U] [-s S] [-h] [statement ...]
 
   最初要执行一次的语句（默认为 `pass` ）
 
-- `-p`` , ``--process `
+- ` -p`` , ``--process  `
 
   测量进程时间，而不是 wallclock 时间，使用 [`time.process_time()`](https://docs.python.org/zh-cn/3/library/time.html#time.process_time) 而不是 [`time.perf_counter()`](https://docs.python.org/zh-cn/3/library/time.html#time.perf_counter) ，这是默认值*3.3 新版功能.*
 
@@ -96,11 +90,11 @@ python -m timeit [-n N] [-r N] [-u U] [-s S] [-h] [statement ...]
 
   指定定时器输出的时间单位；可以选择 nsec，usec，msec 或 sec*3.5 新版功能.*
 
-- `-v`` , ``--verbose `
+- ` -v`` , ``--verbose  `
 
   打印原始计时结果；重复更多位数精度
 
-- `-h`` , ``--help `
+- ` -h`` , ``--help  `
 
   打印一条简短的使用信息并退出
 
@@ -218,3 +212,9 @@ def h(x):
 import timeit
 print(timeit.timeit('[func(42) for func in (f,g,h)]', globals=globals()))
 ```
+
+## ref：
+
+- 参考：https://docs.python.org/zh-cn/3/library/timeit.html
+
+- 源码： [Lib/timeit.py](https://github.com/python/cpython/tree/3.9/Lib/timeit.py)

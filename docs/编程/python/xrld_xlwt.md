@@ -1,8 +1,8 @@
-# xlwt xlrd
+# python 读写 excel ( xlwt xlrd)
 
-xlrd 官方API参考：https://xlrd.readthedocs.io/en/latest/api.html
+xlrd 官方 API 参考：https://xlrd.readthedocs.io/en/latest/api.html
 
-xlwt官方说明：https://xlwt.readthedocs.io/en/latest/api.html
+xlwt 官方说明：https://xlwt.readthedocs.io/en/latest/api.html
 
 demo:
 
@@ -19,8 +19,8 @@ new_file = xlwt.Workbook(encoding='utf-8', style_compression = 0)
 new_sheet = new_file.add_sheet('Sheet1', cell_overwrite_ok = True)
 
 #获取工作表行数和列数
-rows = old_sheet.nrows 
-cols = old_sheet.ncols 
+rows = old_sheet.nrows
+cols = old_sheet.ncols
 
 #找出域名列表中域名数量小于6的具体行数,存入need_rows
 need_rows = list()

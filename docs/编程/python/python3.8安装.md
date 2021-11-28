@@ -1,10 +1,10 @@
-# Linux安装Python3.8.1的教程详解
+# Linux 安装 Python3.8.1
 
- 更新时间：2020年02月09日 10:46:39  作者：四海飞鹰  
+更新时间：2020 年 02 月 09 日 10:46:39 作者：四海飞鹰
 
-这篇文章主要介绍了Linux安装Python3.8.1的教程，本文以linux安装python3.8版本为例给大家详细说明，感兴趣的朋友跟随小编一起看看吧
+这篇文章主要介绍了 Linux 安装 Python3.8.1 的教程，本文以 linux 安装 python3.8 版本为例给大家详细说明，感兴趣的朋友跟随小编一起看看吧
 
-本例以Linux上安装Pyhton3.8版本为例进行说明
+本例以 Linux 上安装 Pyhton3.8 版本为例进行说明
 
 1、依赖包安装
 
@@ -38,11 +38,11 @@ ln -s /usr/local/python3/bin/python3.8 /usr/bin/python3``ln -s /usr/local/python
 
 6、验证是否安装成功
 
-执行python3命令
+执行 python3 命令
 
 ![img](https://img.jbzj.com/file_images/article/202002/202029104414885.jpg?202019104528)
 
-执行pip3命令
+执行 pip3 命令
 
 ![img](https://img.jbzj.com/file_images/article/202002/202029104414886.jpg?202019104528)
 
