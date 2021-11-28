@@ -230,5 +230,3 @@ print(a,b,c,d)
 ### ref：
 
 - https://www.jianshu.com/p/ca078514be7a
-
-![image-20211128190040259](../assets/python小技巧.assets/image-20211128190040259.png)
