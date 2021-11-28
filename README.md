@@ -24,3 +24,5 @@ $ npx dumi dev
 ## Reference
 
 本档使用 dumi 框架的站点模式的组件库开发： - dumi 安装参考：https://d.umijs.org/zh-CN/guide - dumi-theme-tuya 主题安装: https://dumi-theme-tuya.js.org/docs/getting-started
+
+i

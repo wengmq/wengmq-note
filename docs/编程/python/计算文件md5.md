@@ -1,13 +1,9 @@
-# 计算文件md5值
-
-
-
-
+# 计算文件 md5 值
 
 ```
 import hashlib
 import os
- 
+
 def get_md5(file_path):
   md5 = None
   if os.path.isfile(file_path):
@@ -18,12 +14,9 @@ def get_md5(file_path):
     f.close()
     md5 = str(hash_code).lower()
   return md5
- 
+
 if __name__ == "__main__":
   file_path = '/Users/wengmingqiang/wengmq/test/file_records.json'
   md5_01 = get_md5(file_path)
   print(md5_01)
 ```
-
-
-
