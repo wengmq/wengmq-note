@@ -1,4 +1,4 @@
-# python 测量小代码片段的执行时间：[`python timeit`](https://docs.python.org/zh-cn/3/library/timeit.html#module-timeit)
+# python 测量代码片段执行时间：[`python timeit`](https://docs.python.org/zh-cn/3/library/timeit.html#module-timeit)
 
 该模块提供了一种简单的方法来计算一小段 Python 代码的耗时。它有 [命令行界面](https://docs.python.org/zh-cn/3/library/timeit.html#timeit-command-line-interface) 以及一个 [可调用](https://docs.python.org/zh-cn/3/library/timeit.html#python-interface) 方法。它避免了许多用于测量执行时间的常见陷阱。另见 Tim Peters 对 O'Reilly 出版的 _Python Cookbook_ 中“算法”章节的介绍。
 
