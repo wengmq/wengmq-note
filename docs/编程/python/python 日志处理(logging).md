@@ -1,18 +1,5 @@
 # [python 日志处理(logging)](https://www.cnblogs.com/yyds/p/6901864.html)
 
-## 本节内容
-
----
-
-1. 日志相关概念
-2. logging 模块简介
-3. 使用 logging 提供的模块级别的函数记录日志
-4. logging 模块日志流处理流程
-5. 使用 logging 四大组件记录日志
-6. 配置 logging 的几种方式
-7. 向日志输出中添加上下文信息
-8. 参考文档
-
 ## 一、日志相关概念
 
 ---
