@@ -133,9 +133,9 @@ for progress in range(100):
   sys.stdout.flush()
 ```
 
-![img](https:////upload-images.jianshu.io/upload_images/13723999-1b6ae805b82d7dc9.gif?imageMogr2/auto-orient/strip|imageView2/2/w/652/format/webp)
+![image-20211128190040259](../assets/python小技巧.assets/13723999-1b6ae805b82d7dc9.webp)
 
-## 14.快速反转字符串
+### 14.快速反转字符串
 
 ```python
 a = 'Python is a powerful languange.'
@@ -230,3 +230,5 @@ print(a,b,c,d)
 ### ref：
 
 - https://www.jianshu.com/p/ca078514be7a
+
+![image-20211128190040259](../assets/python小技巧.assets/image-20211128190040259.png)

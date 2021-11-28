@@ -1,4 +1,4 @@
-# python 检测远程 git 仓库文件变更
+# python 检测 git 仓库文件变更
 
 crontab 定时执行 python 脚本来，定时检查远程的 git 仓库的文件变更，并且将变更的信息 post 到企业微信机器人，机器人自动发生消息到群里。
 
