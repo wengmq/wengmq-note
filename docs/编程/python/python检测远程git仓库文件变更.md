@@ -204,6 +204,7 @@ class FIleCheck():
 
 
 if __name__ == "__main__":
+    # 相对于git_pull_path_root的相对路径目录
     # key：获取的文件的目录（会递归查找子目录的文件path）
     # value：匹配文件的正则（path匹配上的才会check）
     check_path_root = {
@@ -228,8 +229,12 @@ if __name__ == "__main__":
 
 </details>
 
+## 增加执行权限
+
+$ chmod +x file_check.py
+
 ## 增加 crontab 任务
 
 - 执行`crontab -e` 修改 crontab
-  - 例如每三分钟执行下脚本，并且输出到/var/log/file_check.log 日志
+  - 例如每三分钟执行下脚本，并且输出到/var/log/file_check.log 日志，加入下面内容
     - `*/3 * * * * /root/.virtualenvs/p3/bin/python3 /root/wengmq/file_check/file_check.py >> /var/log/file_check.log`
