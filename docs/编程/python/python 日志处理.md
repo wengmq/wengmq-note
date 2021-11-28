@@ -1,4 +1,4 @@
-# [python 日志处理(logging)](https://www.cnblogs.com/yyds/p/6901864.html)
+# [python 日志处理](https://www.cnblogs.com/yyds/p/6901864.html)
 
 ## 一、日志相关概念
 
