@@ -50,7 +50,7 @@
 
 ![image-20220327232600216](../assets/DNS介绍（一）.assets/image-20220327232600216.png)
 
-## DNS 缓存机制
+## 四、DNS 缓存机制
 
 关于 DNS 缓存的机制，有一篇非常详细的文章[What really happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)。
 
