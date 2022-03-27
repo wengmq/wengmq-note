@@ -1,4 +1,4 @@
-# 压测工具之 wrk
+# wrk 压测工具
 
 wrk 是一款针对 Http 协议的基准测试工具，它能够在单机多核 CPU 的条件下，使用系统自带的高性能 I/O 机制，如 epoll，kqueue 等，通过[多线程](https://so.csdn.net/so/search?from=pc_blog_highlight&q=多线程)和事件模式，对目标机器产生大量的负载。
 

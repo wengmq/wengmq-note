@@ -1,3 +1,5 @@
+# http 缓存机制
+
 ## 一、简介
 
 首先了解下，在浏览器中发起一次请求的过程，对着这张图先发呆 30 秒~
@@ -42,8 +44,7 @@
 
 - **强缓存**：强制缓存整体流程比较简单，就是在第一次访问服务器取到数据之后，第二次请求时会根据 header 中的信息的过期时间判断文件是否过期，如果文件不过期则直接使用缓存中的资源不会再向服务器发送请求。
   这里的 header 中的信息指的是 `expires`和 `cahe-control`.
-- **协商缓存**：当强缓存没有命中的时候，浏览器会发送一个请求到服务器，服务器根据 header 中的部分信息来判断是否命中缓存。如果命中，则返回 304 ，告诉浏览器资源未更新，可使用本地的缓存。这里的 header 中的信息指的是 `Last-Modified & If-Modified-Since`和 `ETag & If-None-Match`，通常 Last-Modified 和 If-Modified-Since 搭配使用，ETag 和 If-None-Match 搭配使用。
-  -
+- ## **协商缓存**：当强缓存没有命中的时候，浏览器会发送一个请求到服务器，服务器根据 header 中的部分信息来判断是否命中缓存。如果命中，则返回 304 ，告诉浏览器资源未更新，可使用本地的缓存。这里的 header 中的信息指的是 `Last-Modified & If-Modified-Since`和 `ETag & If-None-Match`，通常 Last-Modified 和 If-Modified-Since 搭配使用，ETag 和 If-None-Match 搭配使用。
 
 ### 3.1 强缓存
 
