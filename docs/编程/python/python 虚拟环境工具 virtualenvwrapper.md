@@ -25,6 +25,14 @@ source /usr/local/bin/virtualenvwrapper.sh
 mkvirtualenv env_django_1 -p `which python3`
 ```
 
+## 进入虚拟环境
+
+env_django_1 替换成你创建的虚拟环境的名字
+
+```
+workon env_django_1
+```
+
 ## 退出虚拟环境
 
 ```
